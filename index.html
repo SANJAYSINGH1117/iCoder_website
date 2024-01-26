@@ -377,11 +377,14 @@
  $(document).ready(function(){
 
   $(".btn-sm btn-primary").click(function(){
-$("this").hide(1000,function(){
+$("this").css(1000,function(){
     console.log("It is shown.")
 })
 
-
+$('p').click(function () {
+       console.log("You clicked on p.", this);
+       $(this).slideUp();
+    }); 
 
 
 
