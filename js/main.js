@@ -14,4 +14,8 @@ $(document).ready(function () {
         }, function(){
         $(this).css("background-color", "pink");
       });
+
+      $("#contactbtn").slideToggle();
+
+
 });
