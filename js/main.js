@@ -8,6 +8,8 @@ $(document).ready(function () {
   });
 
       
+  $("#contactbtn").slideUp();
+  $("#contactbtn").slideToggle();
 
 
 });
