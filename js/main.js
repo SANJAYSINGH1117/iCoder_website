@@ -1,15 +1,17 @@
 $(document).ready(function () {
    
 
-  $("#contactbtn").hover(function(){
-    $(this).css("background-color", "blue");
-    }, function(){
-    $(this).css("background-color", "green");
-  });
+  // $("#contactbtn").hover(function(){
+  //   $(this).css("background-color", "blue");
+  //   }, function(){
+  //   $(this).css("background-color", "green");
+  // });
 
       
-  $("#contactbtn").slideUp();
-  $("#contactbtn").slideToggle();
+  $("#contactbtn").hover(function(){
+ 
+  $(this).slideToggle();
+  })
 
 
 });
