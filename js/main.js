@@ -9,9 +9,9 @@ $(document).ready(function () {
     //     console.log(a);
     // });
 
-    // $("#contactbtn").hover(function(){
-    //     $(this).css("background-color", "yellow");
-    //     }, function(){
-    //     $(this).css("background-color", "pink");
-    //   });
+    $("#contactbtn").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "pink");
+      });
 });
