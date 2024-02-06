@@ -10,14 +10,8 @@ $(document).ready(function () {
     // });
 
     $("#contactbtn").hover(function(){
-        $(this).slideUp("background-color", "yellow");
-        }, function(){
-        $(this).css("background-color", "pink");
-      });
-      $("#contactbtn").slideDown(function(){
-        $(this).css("background-color", "yellow");
-        }, function(){
-        $(this).css("background-color", "pink");
-      });
-      
+        $(this).slideUp();
+        },
+     
+    )
 });
