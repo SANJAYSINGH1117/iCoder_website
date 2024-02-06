@@ -8,10 +8,7 @@ $(document).ready(function () {
   // });
 
       
-  $("#contactbtn").hover(function(){
- 
-  $(this).slideToggle();
-  })
+  $("#contactbtn").slideToggle();
 
 
 });
