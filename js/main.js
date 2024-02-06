@@ -9,7 +9,12 @@ $(document).ready(function () {
     //     console.log(a);
     // });
 
-    $("#contactbtn").slideToggle(function(){
+    $("#contactbtn").slideUp(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "pink");
+      });
+      $("#contactbtn").slideDown(function(){
         $(this).css("background-color", "yellow");
         }, function(){
         $(this).css("background-color", "pink");
