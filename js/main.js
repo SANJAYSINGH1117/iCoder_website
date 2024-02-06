@@ -9,13 +9,13 @@ $(document).ready(function () {
     //     console.log(a);
     // });
 
-    $("#contactbtn").hover(function(){
+    $("#contactbtn").slideUp(function(){
         $(this).css("background-color", "yellow");
         }, function(){
         $(this).css("background-color", "pink");
       });
 
-      $("#contactbtn").slideToggle();
+      
 
 
 });
