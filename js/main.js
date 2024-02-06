@@ -10,7 +10,7 @@ $(document).ready(function () {
     // });
 
     $("#contactbtn").hover(function(){
-        $(this).slideUp();
+        $(this).css("background-color","red");
         },
      
     )
