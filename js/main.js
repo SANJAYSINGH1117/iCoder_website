@@ -9,8 +9,8 @@ $(document).ready(function () {
     //     console.log(a);
     // });
 
-    $("#contactbtn").slideUp(function(){
-        $(this).css("background-color", "yellow");
+    $("#contactbtn").click(function(){
+        $(this).slideUp("background-color", "yellow");
         }, function(){
         $(this).css("background-color", "pink");
       });
