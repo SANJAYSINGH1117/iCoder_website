@@ -21,4 +21,37 @@ Coming soon or deploy locally to see it in action.
 ---
 
 ## 📁 Project Structure
+iCoder_website/
+├── index.html
+├── about.html
+├── contact.html
+├── blog.html
+├── style.css
+└── assets/
+└── images/
+
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3  
+- Bootstrap 4/5 (check version used)  
+- Font Awesome (if applicable)  
+
+---
+
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+Just a modern web browser (Chrome, Firefox, etc.)
+
+### How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SANJAYSINGH1117/iCoder_website.git
+
 
